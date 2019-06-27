@@ -19,6 +19,8 @@
 #
 # History:
 #
+# 2019-06-27, Simmo Saan <simmo.saan@gmail.com>
+#   version 0.3: fix completions
 # 2015-07-24, Simmo Saan <simmo.saan@gmail.com>
 #   version 0.2: add command /help
 # 2015-07-24, Simmo Saan <simmo.saan@gmail.com>
@@ -33,7 +35,7 @@ from __future__ import print_function
 
 SCRIPT_NAME = "key_regex"
 SCRIPT_AUTHOR = "Simmo Saan <simmo.saan@gmail.com>"
-SCRIPT_VERSION = "0.2"
+SCRIPT_VERSION = "0.3"
 SCRIPT_LICENSE = "GPL3"
 SCRIPT_DESC = "Run /key commands on sets of keys by regex"
 
