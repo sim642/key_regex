@@ -148,5 +148,5 @@ All commands take a regular expression to match keys against as an argument.""",
  || reset
  || resetctxt %(keys_context)
  || unbind
- || unbindctxt %(keys_context)""",
+ || unbindctxt %(keys_context)""".replace("\n", ""),
 			"command_cb", "")
