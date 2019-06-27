@@ -144,9 +144,9 @@ unbindctxt: remove key bindings, for given context
 
 All commands take a regular expression to match keys against as an argument.""",
 """list
- || listctxt %(keys_context)
+ || listctxt %(keys_contexts)
  || reset
- || resetctxt %(keys_context)
+ || resetctxt %(keys_contexts)
  || unbind
- || unbindctxt %(keys_context)""".replace("\n", ""),
+ || unbindctxt %(keys_contexts)""".replace("\n", ""),
 			"command_cb", "")
